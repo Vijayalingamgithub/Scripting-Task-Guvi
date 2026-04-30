@@ -41,5 +41,5 @@ cat Check_HTTP_ERROR_CODE.sh
 vi replacetext.txt
 # Replace all occurrence of the word "give" with "learning" from 5th line till the end in only those lines that contain the word "welcome"
 sed -i '5,$ {/welcome/ s/give/learning/g}' replacetext.txt
-# View the script content linux command
+# View the file content
 cat replacetext.txt
