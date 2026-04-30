@@ -1,4 +1,4 @@
-# Scripting-Task-Guvi
+# Scripting-Task-Guvi-1
 # Create script file
 vi Check_HTTP_ERROR_CODE.sh
 # write scrip using VI editor
@@ -35,3 +35,11 @@ chmod 755 Check_HTTP_ERROR_CODE.sh
 ./Check_HTTP_ERROR_CODE.sh
 # View the script content linux command
 cat Check_HTTP_ERROR_CODE.sh
+-------------------------------------------------------------------------------------------------------------
+# Scripting Task-2
+# Create  file
+vi replacetext.txt
+# Replace all occurrence of the word "give" with "learning" from 5th line till the end in only those lines that contain the word "welcome"
+sed -i '5,$ {/welcome/ s/give/learning/g}' replacetext.txt
+# View the script content linux command
+cat replacetext.txt
