@@ -31,5 +31,7 @@ else
 fi
 # Give execute permission on script file command
 chmod 755 Check_HTTP_ERROR_CODE.sh
-# Run script file commmand
+# Run script file command
 ./Check_HTTP_ERROR_CODE.sh
+# View the script content linux command
+cat Check_HTTP_ERROR_CODE.sh
